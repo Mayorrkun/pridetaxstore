@@ -1,0 +1,40 @@
+/*fonts innit*/
+@font-face {
+    font-family: 'MTNBrighterSans-Bold';
+    src: url('CSS/fonts/MTNBrighterSans-Bold.woff') format('woff'), /* Adjust path and format as needed */
+    url('CSS/fonts/MTNBrighterSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MTNBrighterSans-Light';
+    src: url('CSS/fonts/MTNBrighterSans-Light.woff') format('woff'), /* Adjust path and format as needed */
+    url('CSS/fonts/MTNBrighterSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MTNBrighterSans-Medium';
+    src: url('CSS/fonts/MTNBrighterSans-Medium.woff') format('woff'), /* Adjust path and format as needed */
+    url('CSS/fonts/MTNBrighterSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MTNBrighterSans-MediumItalic';
+    src: url('CSS/fonts/MTNBrighterSans-MediumItalic.woff') format('woff'), /* Adjust path and format as needed */
+    url('CSS/fonts/MTNBrighterSans-MediumItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'MTNBrighterSans-Regular';
+    src: url('CSS/fonts/MTNBrighterSans-Regular.woff') format('woff'), /* Adjust path and format as needed */
+    url('CSS/fonts/MTNBrighterSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#root{
+    margin:0;
+}

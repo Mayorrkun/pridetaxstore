@@ -1,0 +1,50 @@
+
+@media (min-width: 500px) {
+
+    /*Navbar Css default*/
+    .navbar{
+        height:60px;
+        display:flex;
+        padding: 5px 20px;
+        color: #fff;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+
+        .logo-container{
+            height:60px;
+            display:flex;
+        }
+        .nav-container{
+            margin-right: 50px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            a {
+                font-family: MTNBrighterSans-Medium;
+                font-size: 16px;
+                text-decoration: none;
+                color: white;
+                padding: 5px;
+                transition: all .3s ease-in-out;
+            }
+
+            a:hover {
+                color: #cfc755;
+            }
+        }
+
+    }
+    .navbar .scrolled{
+        background-color: #cfc755;
+    }
+
+/*    page Header*/
+    .header-container{
+        height:400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
