@@ -43,8 +43,43 @@
 /*    page Header*/
     .header-container{
         height:400px;
+        width: 100vw;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        margin: 0;
+        font-family: MTNBrighterSans-Medium;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 0;
+
+        h1{
+           all: unset;
+            font-family: MTNBrighterSans-Bold;
+            font-size: 50px;
+            text-align: center;
+        }
+        p {
+            padding: 0 50px;
+            h2{
+                all: unset;
+
+            }
+
+            a{
+                all: unset;
+                font-size: 20px;
+                display: inline-block;
+                padding: 10px 15px;
+                background: #cfc755;
+                border-radius: 5px;
+                opacity: 80%;
+            }
+            a:hover{
+                opacity: 100%;
+            }
+        }
     }
 }
