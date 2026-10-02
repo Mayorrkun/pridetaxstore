@@ -1,8 +1,8 @@
 import NavBar from "../../Components/NavBar.tsx";
-import Header from "../../assets/media/0051.jpg";
+import Header from "../../assets/media/0052.jpg";
 import {Link} from "react-router-dom";
 import Footer from "../../Components/Footer.tsx";
-function Home(){
+function Resources(){
 
     return <div>
         <NavBar/>
@@ -19,4 +19,4 @@ function Home(){
 }
 
 
-export default Home;
+export default Resources;

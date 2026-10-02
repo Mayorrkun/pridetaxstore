@@ -27,7 +27,7 @@ function NavBar(){
 
 
     return (
-    <div className={`navbar ${scrolled ? "scrolled" : ""}`}>
+    <div className={`navbar ${scrolled && "scrolled"}`}>
         <div className="logo-container">
             <img src={Logo} alt=""/>
             <img src={Text} alt=""/>
@@ -35,10 +35,10 @@ function NavBar(){
 
         <div className="nav-container">
             <Link to="/">Home</Link>
-            <Link to="/">About</Link>
-            <Link to="/">Services</Link>
-            <Link to="/">Resources</Link>
-            <Link to="/">Contact</Link>
+            <Link to="/about">About</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/resources">Resources</Link>
+            <Link to="/contact">Contact</Link>
         </div>
     </div>)
 

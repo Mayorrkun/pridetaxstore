@@ -1,0 +1,15 @@
+.services-container{
+    background-color: white;
+    padding: 0 50px;
+    div{
+
+        div{
+            display: flex;
+            justify-content: space-between;
+
+            ul{
+                background-color: #615b88;
+            }
+        }
+    }
+}

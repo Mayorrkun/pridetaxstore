@@ -1,0 +1,47 @@
+@media (min-width: 500px) {
+
+    .about-feedback{
+        padding: 20px 0;
+        font-family: MTNBrighterSans-Medium;
+        background-color: white;
+        h1{
+            padding: 0 50px;
+        }
+        div{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            padding: 0 50px;
+            div{
+                display: flex;
+                flex-direction: column;
+                background-color: #615b88;
+                padding: 10px 20px;
+                border-radius: 20px;
+                width: 250px;
+                height: 250px;
+                img{
+                    width:80px;
+                    margin: 0 auto;
+
+                }
+                span{
+                    color: #cfc755;
+                    display: block;
+                    font-size: 30px;
+                    text-align: center;
+
+                }
+                p{
+                    display: block;
+                    margin: 0 auto 10px auto;
+                    color:#fff;
+
+                }
+            }
+        }
+    }
+
+    .about-values{}
+}
+
