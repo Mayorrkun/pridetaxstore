@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import Footer from "../../Components/Footer.tsx";
 function Home(){
 
-    return <div>
+    return <div className="Hero">
         <NavBar/>
         <section className="header-container" style={{backgroundImage: `url(${Header})`}}>
             <h1>Pride Tax Store</h1>

@@ -1,0 +1,43 @@
+.contact-main{
+    background-color: white;
+    padding: 20px 100px;
+}
+
+.contact-container {
+    font-family: MTNBrighterSans-Regular;
+    width: 500px;
+
+    .desc{
+        display: flex;
+        flex-direction: column;
+        span{
+            color:#8b929e ;
+            margin: 5px 0;
+
+        }
+    }
+
+}
+.contact-hours{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+    color: #8b929e ;
+
+    span{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.contact-map{
+    width: 100vw;
+    height: 50vh
+}
+
+.contact-line{
+    border-top: 1px solid #8b929e;
+    margin: 0 0 5px 0;
+    display: block;
+}

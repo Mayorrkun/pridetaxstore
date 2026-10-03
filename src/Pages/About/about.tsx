@@ -6,7 +6,7 @@ import "../../CSS/about.css"
 import Footer from "../../Components/Footer.tsx";
 function About(){
 
-    return <div>
+    return <div className="Hero">
         <NavBar/>
         <section className="header-container" style={{backgroundImage: `url(${Header})`}}>
             <h1>About Us</h1>
