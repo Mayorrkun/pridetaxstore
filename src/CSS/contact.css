@@ -1,43 +1,97 @@
-.contact-main{
-    background-color: white;
-    padding: 20px 100px;
-}
+@media (min-width: 500px) {
+    .contact-main{
+        background-color: white;
+        padding: 20px 100px;
+    }
 
-.contact-container {
-    font-family: MTNBrighterSans-Regular;
-    width: 500px;
+    .contact-container {
+        font-family: MTNBrighterSans-Regular;
+        width: 500px;
 
-    .desc{
+        .desc{
+            display: flex;
+            flex-direction: column;
+            span{
+                color:#8b929e ;
+                margin: 5px 0;
+
+            }
+        }
+
+    }
+    .contact-hours{
         display: flex;
         flex-direction: column;
-        span{
-            color:#8b929e ;
-            margin: 5px 0;
+        gap: 5px;
+        width: 300px;
+        color: #8b929e ;
 
+        span{
+            display: flex;
+            justify-content: space-between;
         }
     }
 
-}
-.contact-hours{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    width: 300px;
-    color: #8b929e ;
+    .contact-map{
+        width: 100vw;
+        height: 50vh
+    }
 
-    span{
-        display: flex;
-        justify-content: space-between;
+    .contact-line{
+        border-top: 1px solid #8b929e;
+        margin: 0 0 5px 0;
+        display: block;
     }
 }
+/* ===== Contact.css: Mobile (phones under 500px) ===== */
+@media (max-width: 499px) {
 
-.contact-map{
-    width: 100vw;
-    height: 50vh
-}
+    .contact-main{
+        background-color: white;
+        padding: 20px 16px;
+    }
 
-.contact-line{
-    border-top: 1px solid #8b929e;
-    margin: 0 0 5px 0;
-    display: block;
+    .contact-container {
+        font-family: MTNBrighterSans-Regular;
+        width: 100%; /* fixed 500px would overflow a phone screen */
+
+        .desc{
+            display: flex;
+            flex-direction: column;
+
+            span{
+                color: #8b929e;
+                margin: 6px 0;
+                line-height: 1.5;
+                overflow-wrap: anywhere; /* long emails and addresses won't overflow */
+            }
+        }
+    }
+
+    .contact-hours{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        width: 100%; /* fixed 300px becomes fluid */
+        color: #8b929e;
+        font-size: 15px;
+
+        span{
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+        }
+    }
+
+    .contact-map{
+        width: 100%; /* 100vw includes the scrollbar and causes sideways scrolling */
+        height: 300px;
+        border: 0;
+    }
+
+    .contact-line{
+        border-top: 1px solid #8b929e;
+        margin: 10px 0;
+        display: block;
+    }
 }

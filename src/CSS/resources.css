@@ -129,3 +129,156 @@
         }
     }
 }
+
+/* ===== Resources.css: Mobile (phones under 500px) ===== */
+@media (max-width: 499px) {
+
+    /* Main resources block */
+    .resources-container{
+        font-family: MTNBrighterSans-Medium;
+        display: flex;
+        flex-direction: column;
+        height: auto; /* fixed 400px would clip stacked content */
+        justify-content: flex-start;
+        gap: 20px;
+        padding: 20px 16px;
+        background-color: white;
+
+        .trs{
+            font-family: MTNBrighterSans-Regular;
+            width: 100%;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                font-family: MTNBrighterSans-Bold;
+                font-size: 26px;
+                margin: 0 0 10px;
+            }
+            p{
+                text-align: left;
+                line-height: 1.6;
+                color: #8b929e;
+            }
+            a{
+                text-decoration: none;
+                display: inline-flex;
+                justify-content: center;
+                margin: 0 auto;
+                color: white;
+                background-color: #615b88;
+                padding: 14px 24px; /* comfortable tap target */
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+
+        /* vertical divider becomes a horizontal one */
+        .wall{
+            height: 0;
+            width: 100%;
+            border: #8b929e solid 1px;
+        }
+
+        .links{
+            font-family: MTNBrighterSans-Regular;
+            width: 100%;
+            padding: 0;
+
+            h2{
+                font-family: MTNBrighterSans-Bold;
+                font-size: 22px;
+                margin: 0 0 10px;
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                    background-color: #cfc755;
+                    padding: 14px 16px;
+                    text-align: center;
+                    font-size: 17px;
+                    margin: 0;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+    /* Appointment */
+    .resources-appointment{
+        font-family: MTNBrighterSans-Bold;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 16px;
+        margin: 16px 0;
+        background-color: white;
+
+        ul{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 0;
+            padding: 0;
+
+            li{
+                list-style: none;
+                padding: 10px;
+                width: 100%;
+                font-size: 14px;
+                box-shadow: 2px 2px #e0e0e0;
+            }
+        }
+    }
+
+    /* TLC cards */
+    .resources-tlc{
+        background-color: white;
+        padding: 30px 16px;
+        display: flex;
+        flex-direction: column;
+        font-family: MTNBrighterSans-Regular;
+
+        h1{
+            font-family: MTNBrighterSans-Bold;
+            font-size: 26px;
+            text-align: center;
+            margin: 0 0 16px;
+        }
+        div{
+            margin: 0;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            padding: 0;
+
+            p{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                margin: 0;
+                padding: 24px 16px;
+                gap: 14px;
+                line-height: 1.5;
+                background-color: #f0f0f0;
+                border-radius: 5px;
+
+                a{
+                    display: inline-flex;
+                    justify-content: center;
+                    margin: auto auto 10px auto;
+                    background-color: #0d0348;
+                    color: white;
+                    padding: 14px 24px;
+                    text-decoration: none;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
