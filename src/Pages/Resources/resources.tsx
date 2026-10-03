@@ -1,8 +1,8 @@
 import NavBar from "../../Components/NavBar.tsx";
 import Header from "../../assets/media/0052.jpg";
-import {Link} from "react-router-dom";
 import {rLinks, TLC, appointments} from "../../JS/data.ts";
 import Footer from "../../Components/Footer.tsx";
+import "../../CSS/resources.css"
 function Resources(){
 
     return <div className="Hero">
@@ -15,9 +15,9 @@ function Resources(){
             </p>
         </section>
 
-        <section>
+        <section className="resources-container">
 
-            <div>
+            <div className="trs">
                 <h1>Tax Refund Schedule</h1>
                 <p>
                     The new IRS Modernized Efile system does not work under the old “refund cycles” from the past, so it is not possible to pinpoint when your refund will be direct deposited. Instead, the IRS wants the taxpayer to use there “Wheres my Refund” link that is listed here. Follow the directions on the website and they will be able to tell you more up-to-date information on your refund. fast tax return tax refund
@@ -30,7 +30,7 @@ function Resources(){
             </span>
 
             <div className="links">
-                <h2>More Helpful Links</h2>
+                <h2>More Helpful Links ...</h2>
                 <div>
                     {
                         rLinks.map((link,i) => (
@@ -41,7 +41,7 @@ function Resources(){
             </div>
         </section>
 
-        <section>
+        <section className="resources-appointment">
             <h1>What to bring to an appointment</h1>
             <span></span>
             <ul>
@@ -55,7 +55,7 @@ function Resources(){
             </ul>
         </section>
 
-        <section>
+        <section className="resources-tlc">
             <h1>Tax Law Changes</h1>
             <div>
                 {

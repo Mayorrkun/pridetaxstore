@@ -19,7 +19,7 @@ function About(){
         <section className="about-values">
             <h1>Our Values</h1>
             <span>At PrideTax Store, we believe everyone deserves accessible and reliable tax services without the hassle..</span>
-            <div>
+            <div className="values">
                 {
                     values.map((value, i) => (
                         <div key={i}>
@@ -45,7 +45,7 @@ function About(){
                 }
             </ul>
         </section>
-
+        <span className="line" style={{borderColor:"#615b88"}}></span>
         <section className="about-feedback">
             <h1>Feedback From Clients</h1>
             <div>
