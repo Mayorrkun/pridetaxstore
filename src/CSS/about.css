@@ -6,6 +6,7 @@
         background-color: white;
         h1{
             padding: 0 50px;
+            text-align: center;
         }
         div{
             display: flex;
@@ -77,9 +78,20 @@
                     color: #615b88;
                     border-top: #f0f0f0 solid 1px;
                     padding: 10px 0;
+                    background-color: white;
                 }
                 span:first-letter{
                     color: #cfc755;
+                }
+
+                transition: transform .4s ease-in-out, background-color .4s ease-in-out, color .4s ease-in-out;
+            }
+            div:hover{
+                transform: translateY(-20px);
+                background-color: rgba(45, 45, 45, 0.4);
+
+                span{
+                    background-color: white;
                 }
             }
 

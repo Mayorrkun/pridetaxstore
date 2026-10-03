@@ -20,7 +20,7 @@ function Footer() {
             </ul>
 
         </div>
-        <span>Copyright© Pride Tax - All Rights Reserved.</span>
+        <span>Copyright© {new Date().getFullYear()} Pride Tax - All Rights Reserved.</span>
         <span className="line"></span>
     </section>
 

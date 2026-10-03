@@ -1,9 +1,24 @@
 import NavBar from "../../Components/NavBar.tsx";
 import Header from "../../assets/media/0051.jpg";
+import Body from "../../assets/media/0050.jpg";
 import {Link} from "react-router-dom";
 import Footer from "../../Components/Footer.tsx";
-
+import {useEffect, useRef} from "react";
+import "../../CSS/home.css";
 function Home(){
+
+    const fadeRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        const onScroll = () => {
+            const el = fadeRef.current;
+            if (!el) return;
+            const opacity = 1 - window.scrollY / 400;
+            el.style.opacity = String(Math.max(0, Math.min(1, opacity)));
+        };
+        window.addEventListener("scroll", onScroll, { passive: true });
+        return () => window.removeEventListener("scroll", onScroll);
+    }, []);
 
     const services =[
         {title:"Tax preparation and Filing", content:["Personal","Business","Self-Employed"]},
@@ -29,7 +44,7 @@ function Home(){
                 <Link to="/contact">Book a Consultation</Link>
             </p>
         </section>
-        <section>
+        <section className="home-services">
             <h1>Our Services</h1>
             <div>
                 {
@@ -47,9 +62,9 @@ function Home(){
                     ))
                 }
             </div>
-            <Link>See More ...</Link>
+            <Link to="/services">See More ... </Link>
         </section>
-        <section>
+        <section className="home-choose" style={{backgroundImage: `url(${Body})`}}>
             <h1>Why Choose Pride tax Store?</h1>
             <span className="white-line"></span>
             <div>
