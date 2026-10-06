@@ -14,7 +14,7 @@ function Footer() {
             </div>
 
             <ul>
-                <li><span>Address</span> <span>2498, Perry Crossing, Suite 240, Plainfield</span></li>
+                <li><span>Address</span> <span>2680 E MAIN STREET SUITE 124 PLAINFIELD IN 16168 </span></li>
                 <li><span>Opening hours</span> <span>8am–6pm Mon–Fri / 10am–3pm Sat</span></li>
                 <li><span>Phone</span> <span>1 844-506-0861</span></li>
             </ul>

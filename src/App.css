@@ -305,6 +305,9 @@
                     gap: 12px;
                     justify-content: space-between;
                     font-size: 14px;
+                    span{
+                        text-align: right;
+                    }
                 }
             }
         }

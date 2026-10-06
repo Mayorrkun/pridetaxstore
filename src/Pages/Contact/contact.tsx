@@ -1,8 +1,9 @@
 import NavBar from "../../Components/NavBar.tsx";
 import Header from "../../assets/media/0049.jpg";
-import  "../../CSS/contact.css"
+import "../../CSS/contact.css"
 import Footer from "../../Components/Footer.tsx";
-function Contact(){
+
+function Contact() {
 
     return <div className="Hero">
         <NavBar/>
@@ -53,7 +54,7 @@ function Contact(){
 
         <section>
             <iframe className="contact-map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3069.2537425514456!2d-86.35975479999999!3d39.71147989999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886ca449b04684ad%3A0x898eece869d7e94a!2s2498%20Perry%20Crossing%20Way%20suite%20240%2C%20Plainfield%2C%20IN%2046168%2C%20USA!5e0!3m2!1sen!2sng!4v1752053718855!5m2!1sen!2sng"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d49114.31197929465!2d-86.3891029!3d39.7026964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886ca5cb13023d77%3A0x412ad4d23419d3c0!2s2680%20E%20Main%20St%20Ste%20124%2C%20Plainfield%2C%20IN%2046168%2C%20USA!5e0!3m2!1sen!2sng!4v1791313610366!5m2!1sen!2sng"
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"></iframe>
         </section>
