@@ -82,7 +82,7 @@ const TLC = [
 {title:'Employee Retention Credit Scams (PDF)',link:  'https://img1.wsimg.com/blobby/go/2391276c-a5f2-4230-8016-3876b6403ec8/downloads/06c0445f-e1db-47e9-af77-3387f44bd853/2023-06-02%20Employee%20Retention%20Credit%20Scams.pdf?ver=1738455011948'},
     {title:'Penalty Relief for 2020 and 2021 Tax Returns (PDF)',link:  'https://img1.wsimg.com/blobby/go/2391276c-a5f2-4230-8016-3876b6403ec8/downloads/75791219-26b4-47c2-95a5-2dd241cd6f61/2023-12-20%20Penalty%20Relief%20for%202020%20and%202021%20Ta.pdf?ver=1738455011948'},
         {title:'IRS Warns Individuals to Stay Clear of Shady Tax Preparers (PDF)',link:  'https://img1.wsimg.com/blobby/go/2391276c-a5f2-4230-8016-3876b6403ec8/downloads/a12252be-4d7d-4d04-85df-a90f831cbbe1/2023-03-29%20IRS%20Warns%20Individuals%20to%20Stay%20Clear.pdf?ver=1738455011948'},
-            {title:'Income Statement Verified by a CPA is not Substantiation (PDF)', link:  'https://img1.wsimg.com/blobby/go/2391276c-a5f2-4230-8016-3876b6403ec8/downloads/499f8e41-9ee9-4ae0-9b8c-574c4e188bad/2023-03-23%20Income%20Statement%20Verified%20by%20a%20CPA%20.pdf?ver=1738455011948'}
+            // {title:'Income Statement Verified by a CPA is not Substantiation (PDF)', link:  'https://img1.wsimg.com/blobby/go/2391276c-a5f2-4230-8016-3876b6403ec8/downloads/499f8e41-9ee9-4ae0-9b8c-574c4e188bad/2023-03-23%20Income%20Statement%20Verified%20by%20a%20CPA%20.pdf?ver=1738455011948'}
 ];
 
 
